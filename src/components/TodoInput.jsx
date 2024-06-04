@@ -11,7 +11,7 @@ export default function TodoInput(props) {
        if(todoValues){
         handleAddTodos(todoValues)
       }  
-      setTodoValues('')
+      setTodoValues('');
     }}>Add</button>
    </header> 
   )
